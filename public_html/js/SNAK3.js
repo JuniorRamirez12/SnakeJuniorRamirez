@@ -160,7 +160,7 @@ function keyboardHandler(event) {
  */
 
 function checkFoodCollisions(snakeHeadX, snakeHeadY) {
-    if(snakeHeadX == food.x && snakHeadY == food.y){
+    if(snakeHeadX == food.x && snakeHeadY == food.y){
         snake.push({
             x: 0,
             y: 0
@@ -170,7 +170,7 @@ function checkFoodCollisions(snakeHeadX, snakeHeadY) {
 }
 
 function checkWallCollisions(snakeHeadX, snakeHeadY) {
-    if(snakeHeadX * snakeSize >= screenWidth || snakeHeadX * snakeSize < 0) {
+    if(snakeHeadX * snakeSize >= screenWidth || snakeHeadX * snakeSize< 0) {
        console.log("Wall Collision");
     }
 }
