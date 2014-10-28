@@ -104,7 +104,7 @@ function snakeUpdate() {
     }
 
     checkFoodCollisions(snakeHeadX, snakeHeadY);
-    checkWallCollisions(snakeHeadX, snakeHeadY);
+    //checkWallCollisions(snakeHeadX, snakeHeadY);
 
     var snakeTail = snake.pop();
     snakeTail.x = snakeHeadX;
@@ -175,9 +175,9 @@ function checkFoodCollisions(snakeHeadX, snakeHeadY) {
     }
 }
 
-function checkWallCollisions(snakeHeadX, snakeHeadY) {
-    if (snakeHeadX * snakeSize >= screenWidth || snakeHeadX * snakeSize < 0) {
-        setState("GAME OVER");
+function checkwallCollisions(snakeHeadX, snakeHeadY){
+    if(snakeHeadX * snakeSize >= screenWidth || snakeHeadX * snakeSize <0){
+        setState
     }
 }
 
