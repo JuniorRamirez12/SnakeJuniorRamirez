@@ -11,3 +11,25 @@ body{
     position: absolute;
     visibility: hidden;
 }
+
+h1, h3 {
+    font-family: 'Permanent Marker', cursive; 
+    color: black;
+    text-align: center;
+}
+
+.title {
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#restartButton {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#restartButton:hover {
+    background-color: #009900;
+}
+
