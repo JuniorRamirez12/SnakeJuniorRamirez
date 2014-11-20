@@ -88,8 +88,8 @@ function gameRestart(){
 
 function snakeInitialize() {
     snake = [];
-    snakeLength = 1;
-    snakeSize = 30;
+    snakeLength = 15;
+    snakeSize = 21;
     snakeDirection = "down";
 
     for (var index = snakeLength - 1; index >= 0; index--) {
@@ -259,5 +259,5 @@ function centerMenuPosition(menu) {
 }
 
 function drawScoreboard() {
-    scoreboard.innerHTML = "Length: " + snakeLength;
+    scoreboard.innerHTML = "Score: " + snakeLength;
 }
